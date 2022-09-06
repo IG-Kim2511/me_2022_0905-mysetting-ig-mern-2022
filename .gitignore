@@ -1,7 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+#🍀c4 node_modules
+node_modules
+node_modules/
+
+
 /.pnp
 .pnp.js
 
@@ -13,6 +17,9 @@
 
 # misc
 .DS_Store
+
+#🍀c4 env , 🍀c15
+.env  
 .env.local
 .env.development.local
 .env.test.local
